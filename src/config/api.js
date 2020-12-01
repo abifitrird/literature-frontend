@@ -2,7 +2,7 @@ import axios from "axios";
 
 // set base URL in config defaults with axios
 export const API = axios.create({
-  baseURL: "http://localhost:5000/api/v1",
+  baseURL: "https://sleepy-reaches-53574.herokuapp.com/api/v1",
 });
 
 // integrate default header for auth
